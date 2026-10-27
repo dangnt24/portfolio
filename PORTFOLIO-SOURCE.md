@@ -1,4 +1,4 @@
-# Ghi chú thiết kế portfolio — 27/10/2026
+# Ghi chú thiết kế portfolio — 28/10/2026
 
 Nguồn hiện hành là index.html, css/style.css và js/script.js. File này không chứa bản sao mã nguồn để tránh lệch phiên bản.
 
@@ -10,3 +10,8 @@ Nguồn hiện hành là index.html, css/style.css và js/script.js. File này k
 - Menu mobile có thể điều khiển bằng bàn phím. Lightbox hỗ trợ Escape, nút đóng, click nền và trả focus. Tôn trọng prefers-reduced-motion.
 
 Xem README.md để chạy local, cập nhật và triển khai.
+
+
+## Thiết kế typography mới
+
+Be Vietnam Pro tự lưu trong assets/fonts, nguồn Google Fonts, giấy phép OFL. Hero xanh rừng đậm, nền kem, điểm nhấn xanh chanh; gallery bốn màn hình giữ khung cố định và crop bằng CSS. Ảnh gốc được giữ nguyên để xem lớn. CV dùng cùng font và vẫn có một trang. Kiểm tra font/dấu và bố cục tại 1280px, 375px, 320px; thử cả bốn màn hình gallery, lightbox, Escape và menu mobile.
